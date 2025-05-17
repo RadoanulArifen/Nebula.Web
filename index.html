@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NebulaWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <img src="/image/Leonardo_Phoenix_09_Design_a_modern_sleek_logo_for_a_techfocus_1-removebg-preview.png" alt="" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button class="hamburger">☰</button>
+        </nav>
+    </header>
+
+    <!-- Cover Image Section -->
+    <section class="cover-section">
+        <div class="cover-overlay"></div>
+        <div class="cover-content">          
+            <h1>Welcome to Our Nebula.Web</h1>
+            <p>We create beautiful, responsive websites that help businesses grow and succeed in the digital world.</p>
+        </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="card-section">
+        <h2 class="section-title">Our Services</h2>
+        <div class="card-container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="/image/webdesign.jpg" alt="Web Design" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Web Design</h3>
+                    <p class="card-description">We create stunning, user-friendly websites that capture your brand's essence and engage your audience.</p>
+                    <a href="#" class="card-link">Learn More →</a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="/image/Web Development.jpg" alt="Web Development" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Web Development</h3>
+                    <p class="card-description">Our expert developers build robust, scalable websites and applications using the latest technologies.</p>
+                    <a href="#" class="card-link">Learn More →</a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="/image/images.jpg" alt="Digital Marketing" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Digital Marketing</h3>
+                    <p class="card-description">We help you reach your target audience and grow your business with effective digital marketing strategies.</p>
+                    <a href="#" class="card-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="form-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-input" placeholder="Your name">
+                    <div class="error-message" id="name-error">Please enter your name</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Your email">
+                    <div class="error-message" id="email-error">Please enter a valid email address</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-input" rows="5" placeholder="Your message"></textarea>
+                    <div class="error-message" id="message-error">Please enter your message</div>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <div class="success-message" id="success-message">
+                Your message has been sent successfully! We'll get back to you soon.
+            </div>
+
+            <div class="saved-data" id="saved-data">
+                <h3>Last Submitted Data:</h3>
+                <div id="saved-data-content"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nebula.Web. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
