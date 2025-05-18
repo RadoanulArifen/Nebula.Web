@@ -75,7 +75,7 @@
         .cover-section {
             position: relative;
             height: 60vh;
-            background-image: url('/image/group-people-working-website-template.jpg');
+            background-image: url('group-people-working-website-template.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
